@@ -4,4 +4,4 @@ createdb:
 dropdb:
 	docker exec -it postgres12 dropdb simple-bank
 
-.PHONY:createdb
+.PHONY:	createdb dropdb
